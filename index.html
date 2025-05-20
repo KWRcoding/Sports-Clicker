@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sports Clicker Game</h1>
+        <div class="score-container">
+            <p>Score: <span id="score">0</span></p>
+            <button id="clickButton" class="ball-button">⚽</button>
+        </div>
+
+        <!-- Power-ups Section -->
+        <h3>Power-ups</h3>
+        <button id="doublePointsButton">Double Points (10 seconds)</button>
+        <button id="autoClickerButton">Auto-Clicker (5 seconds)</button>
+
+        <!-- Shop Side Panel -->
+        <button id="toggleShop" class="toggle-button">Toggle Shop</button>
+        <div id="shop" class="shop-panel">
+            <h2>Upgrades</h2>
+
+            <!-- Soccer Upgrades -->
+            <div class="upgrade-section">
+                <h3>⚽ Soccer</h3>
+                <button id="soccerCleats">New Soccer Cleats - Cost: <span id="soccerCleatsCost">50</span> Points</button>
+                <button id="soccerBall">Soccer Ball - Cost: <span id="soccerBallCost">150</span> Points</button>
+            </div>
+
+            <!-- Hockey Upgrades -->
+            <div class="upgrade-section">
+                <h3>🏒 Hockey</h3>
+                <button id="hockeyStick">New Hockey Stick - Cost: <span id="hockeyStickCost">100</span> Points</button>
+                <button id="iceSkates">Ice Skates - Cost: <span id="iceSkatesCost">250</span> Points</button>
+            </div>
+
+            <!-- Basketball Upgrades -->
+            <div class="upgrade-section">
+                <h3>🏀 Basketball</h3>
+                <button id="basketballShoes">New Basketball Shoes - Cost: <span id="basketballShoesCost">200</span> Points</button>
+                <button id="betterBasketball">Better Basketball - Cost: <span id="betterBasketballCost">500</span> Points</button>
+            </div>
+
+            <!-- Football Upgrades -->
+            <div class="upgrade-section">
+                <h3>🏈 Football</h3>
+                <button id="newCleats">New Cleats - Cost: <span id="newCleatsCost">300</span> Points</button>
+                <button id="betterFootball">Better Football - Cost: <span id="betterFootballCost">600</span> Points</button>
+            </div>
+
+            <button id="prestigeButton">Prestige</button>
+        </div>
+
+        <!-- Achievements Section -->
+        <div id="achievements">
+            <h3>Achievements</h3>
+            <ul id="achievementsList"></ul>
+        </div>
+
+        <!-- Random Event Notification -->
+        <p id="eventNotification"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

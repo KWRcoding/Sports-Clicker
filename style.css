@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-right: 260px;
+    position: relative;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.score-container {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#idlePoints {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#shop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+    display: none;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-panel button {
+    width: 100%;
+}
+
+#achievements {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#achievementsList {
+    list-style-type: none;
+}
+
+.ball-button {
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-button {
+    margin-top: 20px;
+    background-color: #28a745;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.power-up-button {
+    background-color: #ff5733;
+    margin-top: 20px;
+}
+
+.shop-panel {
+    transition: transform 0.3s ease;
+}
+/* Previous styles remain the same */
+
+#achievementsList {
+    list-style-type: none;
+}
+
+#eventNotification {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* More styles for new sections */
+/* Previous styles remain the same */
+
+.upgrade-section {
+    margin-bottom: 20px;
+}
+
+.upgrade-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* More styles for new sections */
+/* Previous styles remain the same */
+
+.upgrade-section {
+    margin-bottom: 20px;
+}
+
+.upgrade-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* More styles for new sections */
+/* Previous styles remain the same */
+
+.upgrade-section {
+    margin-bottom: 20px;
+}
+
+.upgrade-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* More styles for new sections */
+/* Previous styles remain the same */
+
+.upgrade-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.upgrade-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Style for Upgrade Cost Display */
+.upgrade-cost {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Style for Power-Up Countdown */
+#doublePointsButton, #autoClickerButton {
+    position: relative;
+}
+
+.countdown {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 12px;
+    color: yellow;
+    font-weight: bold;
+}
